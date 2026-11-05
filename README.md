@@ -21,7 +21,7 @@
 
 > «Kolonnalarni o'qlar kesishmasiga 400x400 qilib qo'y, 2-qavat rigellarini kolonnadan kolonnaga chiz va har bir rigelga xomut qo'y — tayanch yonida @100, o'rtada @200.»
 
-- **~255 ta tool** — temir-beton, metall, arxitektura, rasmiylashtirish, ko'rinishlar, eksport, Dynamo
+- **350+ tool** (Revit uchun 310 dan ortiq) — temir-beton, metall, arxitektura, rasmiylashtirish, ko'rinishlar, eksport, Dynamo
 - **Erkin C# kodi** — tayyor tool yetmagan joyda AI Revit/AutoCAD API bo'yicha o'zi kod yozadi
 - **Firma qoidalari** — himoya qatlami, xomut qadamlari, нахлёст, markalash va boshqalar AI'ga beriladi
 - **Xavfsiz** — hamma amal bitta tranzaksiyada (Ctrl+Z), «faqat o'qish» rejimi, tasdiq oynasi, jurnal
@@ -43,7 +43,7 @@
 
 | AI ilova | Ulanish | Tool'lar |
 |---|---|---|
-| **Claude Desktop** | «AI ilovalar» → «Ulash» (avtomatik) | hammasi (~255) |
+| **Claude Desktop** | «AI ilovalar» → «Ulash» (avtomatik) | hammasi (350+) |
 | **Claude Code** | «Ulash» yoki `claude mcp add` | hammasi |
 | **ChatGPT desktop** (Codex) | «Ulash» — `~/.codex/config.toml` | hammasi |
 | **Gemini CLI / Antigravity** | «Ulash» — `~/.gemini/...` | hammasi |
@@ -201,6 +201,12 @@ AI ishni boshlashdan oldin `%AppData%\BimMuhandis\Mcp\rules.md` faylini o'qiydi.
 ## Xavfsizlik
 
 - Har bir tool bitta tranzaksiya — Revit'da **Ctrl+Z** bilan qaytariladi
+- Xato bo'lsa o'zgarishlar **avtomatik bekor qilinadi**, Revit ogohlantirishlari natijaga va jurnalga yoziladi
+- Har bir amaldan keyin **qo'shilgan / o'zgargan / o'chirilgan elementlarning to'liq ID ro'yxati** qaytariladi
+- Revit ichida **«Hisobot» oynasi** — AI bajargan ishlar, elementga bosib ko'rish va tanlash
+- C# kodini **faqat kompilyatsiya qilib tekshirish** (`compile_only`) — modelga tegmasdan
+- Bir nechta Revit ochiq bo'lsa **PID bo'yicha tanlash** (`bm_select_target`)
+- Revit'dagi **ochiq dialog oynalarni ko'rish va yopish** (`get_open_dialogs`, `close_dialog`)
 - **Faqat o'qish** rejimi — AI modelni o'zgartira olmaydi
 - **Yozishdan oldin so'rash** — har o'zgarishdan oldin tasdiq oynasi
 - **Ruxsat etilgan tool'lar** — guruhlarni (armatura, o'chirish, eksport, C# kodi, Dynamo…) alohida yoqish/o'chirish; o'chirish sukut bo'yicha yopiq
