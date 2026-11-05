@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.0.3/BimMuhandisMCP-Setup-1.0.3.exe",
-  "sha256": "7574858f2316ba629886e2f2bb827bd5b3a5a6866394575e7764f0bfcb583db3",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.0.3: Revit paneli «Надстройки» tabida (RvtMcp, BimOn yonida)."
+  "version": "1.0.4",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.0.4/BimMuhandisMCP-Setup-1.0.4.exe",
+  "sha256": "f34498d8c120f1072e9ae8b251eef8f72287efc04a563af1ac70353e099a58ae",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.0.4: «Sozlamalar» oynasi Revit ustida ochiladi; sozlamalar maketdagidek (Ulanish, AI ilova, Xavfsizlik, Ruxsat etilgan tool'lar, Bildirishnoma va til; Saqlash / Bekor qilish)."
 }
