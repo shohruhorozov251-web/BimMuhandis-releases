@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.1.0/BimMuhandisMCP-Setup-1.1.0.exe",
-  "sha256": "c012e8daeb2b11cbea78b8ceedd4f906af63ff3b16bb006a54a3a1039c648e77",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.1.0/BimMuhandisMCP-1.1.0.zip",
-  "zip_sha256": "6a80c6495cd7fa632f5822d8eedb609f712308eb42c0f10efde24f475b2d4e91",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.1.0: erkin C# kodi (Revit va AutoCAD — model o'zgarsa tasdiq so'raladi); Sozlamalar oynasi endi Revit ichida ochiladi (alohida dastur emas); ModPlus kabi avtomatik yangilanish — fonda yuklanadi, Revit qayta ochilganda ishlaydi."
+  "version": "1.1.1",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.1.1/BimMuhandisMCP-Setup-1.1.1.exe",
+  "sha256": "e41c4316b6a5b5609034d66a53e6d71af851b2ea65ba71207058cdffd01f1d17",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.1.1/BimMuhandisMCP-1.1.1.zip",
+  "zip_sha256": "d45e23e82aae5a1daef0927b52f66cee370912365d40a2fe456aab6dad69fd6a",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.1.1: erkin C# kodi (Revit va AutoCAD — model o'zgarsa tasdiq so'raladi); Sozlamalar oynasi endi Revit ichida ochiladi (alohida dastur emas); ModPlus kabi avtomatik yangilanish — fonda yuklanadi, Revit qayta ochilganda ishlaydi."
 }
