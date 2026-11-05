@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.2.0/BimMuhandisMCP-Setup-1.2.0.exe",
-  "sha256": "80a51b353c559b7b4c6d24cade2b37ee7ac9483f98b4ac09aafe32b8ac894d67",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.2.0/BimMuhandisMCP-1.2.0.zip",
-  "zip_sha256": "3e8a0c91c952a65f415b986be1cde4529c6d58d8b61d15934f91b2462ccedb7d",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.2.0: 250+ tool — modellashtirish (devor, plita, kolonna, balka, poydevor, teshik), arxitektura (eshik, deraza, xona, pardoz), metall konstruksiya, vidlar va filtrlar, rasmiylashtirish (отметка, o'lcham, обрыв, spetsifikatsiya), eksport (PDF, DWG, IFC), AutoCAD uchun 21 yangi tool; firma qoidalari fayli (bm_rules); Dynamo bilan bog'lanish (AI Python grafini yozadi va Dynamo'da ishga tushiradi); VS Code va Cursor uchun tool soni cheklovi. 1.1: erkin C# kodi, Sozlamalar Revit ichida, ModPlus kabi yangilanish."
+  "version": "1.2.1",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.2.1/BimMuhandisMCP-Setup-1.2.1.exe",
+  "sha256": "be0ed0ae401d237f7e3299bfb9af252d99ba667eca694191e07d753601e45030",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.2.1/BimMuhandisMCP-1.2.1.zip",
+  "zip_sha256": "a9dd1e068b605b1770f93f7ea16b23636f8f4f495fe82d80aaff6594e825c9de",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit 2022–2027, AutoCAD 2022–2027 (2D) va LIRA-SAPR 2022–2026 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.2.1: oyna mavzusi Revit mavzusiga ergashadi (tungi/kunduzgi). 1.2.0: 250+ tool — modellashtirish (devor, plita, kolonna, balka, poydevor, teshik), arxitektura (eshik, deraza, xona, pardoz), metall konstruksiya, vidlar va filtrlar, rasmiylashtirish (отметка, o'lcham, обрыв, spetsifikatsiya), eksport (PDF, DWG, IFC), AutoCAD uchun 21 yangi tool; firma qoidalari fayli (bm_rules); Dynamo bilan bog'lanish (AI Python grafini yozadi va Dynamo'da ishga tushiradi); VS Code va Cursor uchun tool soni cheklovi. 1.1: erkin C# kodi, Sozlamalar Revit ichida, ModPlus kabi yangilanish."
 }
