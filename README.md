@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/versiya-1.4.0-1F3A5F" alt="versiya">
+  <img src="https://img.shields.io/badge/versiya-1.5.0-1F3A5F" alt="versiya">
   <img src="https://img.shields.io/badge/tool'lar-460%2B-2E7D32" alt="tool'lar">
   <img src="https://img.shields.io/badge/dasturlar-2022–2027-0277BD" alt="2022–2027">
   <img src="https://img.shields.io/badge/til-o'zbek%20·%20рус%20·%20eng-6A1B9A" alt="til">
@@ -46,6 +46,17 @@
 | ✅ **Erkin C# kodi** | Revit, AutoCAD, Navisworks, Tekla — tayyor tool yetmasa AI o'zi API kodi yozadi |
 | ✅ **Avtomatik yangilanish** | ModPlus kabi — fonda; «Yangilanishni tekshirish» bosilsa darhol o'rnatiladi |
 | ✅ **O'zbek / рус / english** | interfeys, o'rnatuvchi, kunduzgi va tungi mavzu |
+
+## 1.5.0 da yangi
+
+- 🛡 **Nusxa himoyasi** — Revit qayta ochilsa yoki boshqa hujjat faol bo'lsa, model o'zgartiruvchi amal yuborilmaydi (`TARGET_CHANGED` → `bm_confirm_target`)
+- 🔎 **Har amal kuzatiladi** — natijada `_op` raqami; `bm_operation_status` javob kelmay qolsa ham model o'zgardimi aytadi, `bm_recent_operations`
+- 📦 **`rvt_batch`** — 50 tagacha amal bitta Ctrl+Z da; bittasi xato bersa hammasi qaytariladi
+- 🧠 **ToolBaker va o'z-o'zini rivojlantirish** — yaxshi ishlagan kod doimiy tool bo'ladi (`*_bk_*`), firma kutubxonasi hammaga avtomatik yetadi; `bm_suggestions` takrorlangan kod va sekin tool'larni topadi; `bm_tool_stats`, `bm_self_test`
+- 🧰 **Tayyor ish oqimlari** — `wf_model_audit` (100 ballik baho), `wf_clash_review` (qizil rang), `wf_takeoff_report` (beton m³, armatura kg, metall kg, MEP m → CSV + HTML), `wf_naming_check`, `wf_view_cleanup`
+- 📤 **Eksport** — NWC, FBX, DGN, DWF/DWFx, gbXML, STL, OBJ (PDF, DWG, IFC, rasm, CSV bilan birga)
+- 📋 **ГОСТ/СПДС spetsifikatsiyalar** — `schedule_format`: КЖ armatura, КМ (ГОСТ 21.502), materiallar (ГОСТ 21.101); ustun kengligi, shrift ГОСТ 2.304, guruh sarlavha; ko'p shartli filtr, formula bo'yicha hisob, kalit spetsifikatsiya, material takeoff, `.rte` shablon; `get_schedule_data` 10+ marta tez
+- 🔧 **MEP** — routing preferences (tirsak va tройник avtomatik), izolyatsiya, elektr zanjirlari, `mep_route_between` (ikki uskunani trassa bilan ulash)
 
 ## 1.4.0 da yangi
 
@@ -303,6 +314,14 @@ Hamma uzunliklar **mm** da, koordinatalar `[x, y, z]` mm.
 | Tekla Structures | ✅ | ❌ | ❌ | ❌ |
 | O'zbek / rus interfeysi | ✅ | ❌ | ❌ | ❌ |
 | Avtomatik yangilanish | ✅ | ⚠️ | ❌ | ❌ |
+| Ishda sinalganlik, barqarorlik (xatoda avtomatik bekor, to'liq ID tarixi) | ✅ | ✅ | ⚠️ | ⚠️ |
+| Revit nusxasini aniq tanlash va himoya | ✅ | ✅ | ❌ | ❌ |
+| Har bir amal holatini kuzatish | ✅ | ✅ | ❌ | ❌ |
+| Bir nechta amalni birga xavfsiz bajarish (batch) | ✅ | ✅ | ❌ | ❌ |
+| Tayyor ish oqimlari (audit, clash, hisobot) | ✅ | ✅ | ❌ | ⚠️ |
+| O'z tool'larini pishirish (ToolBaker) + o'z-o'zini rivojlantirish | ✅ | ⚠️ | ❌ | ❌ |
+| Eksport formatlari (PDF, DWG, IFC, NWC, FBX, DGN, DWF, gbXML, STL, OBJ) | ✅ | ✅ | ❌ | ⚠️ |
+| ГОСТ/СПДС spetsifikatsiyalar (КЖ, КМ, materiallar) | ✅ | ❌ | ❌ | ❌ |
 
 <sub>✅ bor · ⚠️ qisman · ❌ yo'q. 2026-yil noyabr holatiga, ochiq hujjatlar va sinovlar asosida.</sub>
 
