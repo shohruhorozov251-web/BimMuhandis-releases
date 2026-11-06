@@ -1,8 +1,8 @@
 {
-  "version": "1.5.3",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.5.3/BimMuhandisMCP-Setup-1.5.3.exe",
-  "sha256": "2b32ed9cc5f73b555c7920b0f5d8fbeee342634c8d9b214c5b847b53b0a61dac",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.5.3/BimMuhandisMCP-1.5.3.zip",
-  "zip_sha256": "1f5d1e65f0af321bc53f1f1cceb1d41c045bf5a61792d2483ad4e0c411e28a20",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.5.3: Esc ×3 — AI ishini to'xtatish va «Saqlaymi?» (Yo'q — oxirgi AI o'zgarishi qaytariladi) · uzoq ishda bildirishnomada «Revit band» va vaqt · og'ir kod oldindan ushlanadi · amallar tarixi saqlanadi · bildirishnoma ochroq va chetdan uzoqroq"
+  "version": "1.5.4",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.5.4/BimMuhandisMCP-Setup-1.5.4.exe",
+  "sha256": "2f76453b7eaece900f8d10f920fcc8a4e63bbd37466e1660e5abe6732f0ff410",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.5.4/BimMuhandisMCP-1.5.4.zip",
+  "zip_sha256": "14d2fc6e79f63548ed2307b8f90a3406d2222475a0e2972a01a41e1adb34832f",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.5.4: armatura aniq joyiga tushadi (Revit xomutga «yopishtirmaydi», plita kesgan rigelda yuqori sterjenlar to'g'ri balandlikda) · xomut oyoqlari himoya o'qida · «20 А400» kabi sterjen nomlari tushuniladi · bir xil tip nomi bir nechta oilada bo'lsa — taxmin emas, aniqlashtirish so'raladi · Revit 2026 da armatura markasi qo'yiladi · parametr yozishda ortiqcha tasdiq oynasi yo'q · g'isht setkasi: tepagacha 300 mm dan ko'p qolsa qator qo'yiladi · otmetka «Абсолютная» tipida · armatura to'qnashuvi tekshiruvi, LIRA fayl qidiruvi, rasm eksporti tuzatildi"
 }
