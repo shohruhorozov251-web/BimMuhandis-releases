@@ -1,8 +1,8 @@
 {
-  "version": "1.6.5",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.5/BimMuhandisMCP-Setup-1.6.5.exe",
-  "sha256": "51cb63aae0c3caf26eb528b69aa129668160932bd4766261c67a3a416b01df7d",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.5/BimMuhandisMCP-1.6.5.zip",
-  "zip_sha256": "e10e10f67121d674d233a2ceecb7d0eb369035f49eb45ce0b054b01412676cd6",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.5: «Неизвестный разработчик» oynasi endi faqat birinchi o'rnatishda — Revit «Всегда загружать» belgisi kichik harfli nom bilan yoziladi (katta harfli nomni Revit tanimay har safar so'rardi)"
+  "version": "1.6.6",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.6/BimMuhandisMCP-Setup-1.6.6.exe",
+  "sha256": "51bb8d13812512111afe356f7afab00b415d7cb5fe8324b9119da0c5eddf615e",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.6/BimMuhandisMCP-1.6.6.zip",
+  "zip_sha256": "7154811d7eae82522f9e99adeaa359e9bc1ee8c9a514e8225104725ba10acb2f",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.6: yangilanish bilan bog'liq hamma narsa «Holat» sahifasida (avto yangilash, tekshirish, yangilash, kanal, oldingi versiya, yangiliklar) · ikkinchi «Yangilash» tugmasi olib tashlandi — yuqorida holat yoziladi: «Yuklanmoqda: X …» / «yuklab olingan — Revit va Claude'ni yopib oching» · «Biz haqimizda»da faqat Telegram, YouTube, asoschilar va minnatdorchilik"
 }
