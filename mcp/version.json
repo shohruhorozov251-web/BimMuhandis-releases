@@ -1,8 +1,8 @@
 {
-  "version": "1.6.3",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.3/BimMuhandisMCP-Setup-1.6.3.exe",
-  "sha256": "a418da66dd7401dd774f29c2c1b5111ce1dc148e6044a3573fbc3ae2f0d0e4f3",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.3/BimMuhandisMCP-1.6.3.zip",
-  "zip_sha256": "00a4d14e0185a55b70be24e7a7bd4cf3d998c8bcce04eec4dce039311844ea88",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.3: Holat sahifasidan yangilanish bloki olib tashlandi — yangilanish faqat «Biz haqimizda» bo'limida"
+  "version": "1.6.4",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.4/BimMuhandisMCP-Setup-1.6.4.exe",
+  "sha256": "dfb07aad20c7ccd7cf7e44378327a6595117af281e0dedb6f8494f2f8e1dc6ef",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.4/BimMuhandisMCP-1.6.4.zip",
+  "zip_sha256": "dd975f2004f3e9502c75fed0f9b79e17ef652210bdf528d72f0356b79639960b",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.4: ish jarayoni bildirishnomasi interfeysga qarama-qarshi rangda — Revit to'q bo'lsa oq, och bo'lsa to'q ko'k · lentadagi «Sozlamalar» tugmasi olib tashlandi (logotip bosilsa sozlamalar ochiladi)"
 }
