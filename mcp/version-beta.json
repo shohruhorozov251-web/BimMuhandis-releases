@@ -1,8 +1,8 @@
 {
-  "version": "1.6.7",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.7/BimMuhandisMCP-Setup-1.6.7.exe",
-  "sha256": "90f267b723d9ca247c843f306adfad0eeda6dd0395f2ab5d24b5e4e0124d0465",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.7/BimMuhandisMCP-1.6.7.zip",
-  "zip_sha256": "9dc4e01b85c11761f6992288c3477e531b06f29818530bce66a694417142cfe5",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.7: yangilanish har soatda tekshiriladi (avval 6 soatda) — yangi versiya tezroq yetib keladi · GitHub'da faqat oxirgi 5 ta MCP versiyasi saqlanadi, eskilari avtomatik o'chiriladi"
+  "version": "1.6.8",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.8/BimMuhandisMCP-Setup-1.6.8.exe",
+  "sha256": "4a72dd264dc0c96297486204a6ef65de70762bfc32948737dc4d5839549d0fdf",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.8/BimMuhandisMCP-1.6.8.zip",
+  "zip_sha256": "0a3151a6494f978a8a31ab595357b3798d714a82ac0575ae20e0a8063efb2d6d",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.8: o'rnatuvchi tuzatildi — MCP ishlab turganida (Claude Desktop, AutoCAD, Revit ushlab turgan fayllar) ham o'rnatiladi: band fayllar qayta nomlanib, yangisi yoziladi; «файл занят / доступ запрещён» xatosi chiqmaydi\r\n1.6.7: yangilanish har soatda tekshiriladi (avval 6 soatda) — yangi versiya tezroq yetib keladi · GitHub'da faqat oxirgi 5 ta MCP versiyasi saqlanadi, eskilari avtomatik o'chiriladi"
 }
