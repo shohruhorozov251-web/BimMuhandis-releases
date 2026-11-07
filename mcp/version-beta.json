@@ -1,8 +1,8 @@
 {
-  "version": "1.6.1",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.1/BimMuhandisMCP-Setup-1.6.1.exe",
-  "sha256": "914021f67d596a045727360e96f21586484ec37a3d71dae2ae91dd4f545cf438",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.1/BimMuhandisMCP-1.6.1.zip",
-  "zip_sha256": "93c41dff7eeccb0ddff032945f9a45af1dff231cdaf4e5094205382388d22cf8",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.1: yangilanish endi xatosiz — bir vaqtda bir nechta jarayon yuklasa ham «fayl band» xatosi chiqmaydi, faqat bittasi yuklaydi · yuklab olingach: «Revit va Claude'ni yopib oching — yangi versiya o'rnatiladi» (Revit'da qisqa eslatma va oynada yashil blok) · «Неизвестный разработчик» oynasi faqat birinchi o'rnatishda: yuklovchi va .addin qayta yozilmaydi, Revit «Всегда загружать» belgisi har safar tiklanadi · MCP oynasi Revit oynasi sifatida ochiladi (vazifalar panelida Revit guruhida) · eski versiyadagi fon jarayoni yopiladi — MCP belgisi treyda qolmaydi · chapda yuqoridagi ish jarayoni oynasi ochroq rangda"
+  "version": "1.6.2",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.2/BimMuhandisMCP-Setup-1.6.2.exe",
+  "sha256": "c9aaca61d777c27a4e2694da7c610a420a68b6aae1f63e7eb8ec76f6b8289e06",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.2/BimMuhandisMCP-1.6.2.zip",
+  "zip_sha256": "ef22cc34badf6f643584a6185b9b574c0e59e96cf64b8af43344cf3980ab58e9",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.2: MCP oynasi har doim Revit oynasining o'rtasida ochiladi · Holat sahifasida pastdagi tugmalar to'liq ko'rinadi · MCP treyda (yashirin belgilar oynasida) umuman belgi ko'rsatmaydi — eski versiyadagi fon jarayoni Revit ochilganda yopiladi · oyna Revit oynasi sifatida (Revit belgisi, vazifalar panelida Revit guruhida) · Claude Desktop «local-agent-mode» nomi bilan ulansa ham «Claude Desktop» deb ko'rsatiladi"
 }
