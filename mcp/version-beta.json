@@ -1,8 +1,8 @@
 {
-  "version": "1.6.9",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.9/BimMuhandisMCP-Setup-1.6.9.exe",
-  "sha256": "d7b79e8ab1285a1f76c3443f09f07e6239103545818c88aa9b16c04e05e8379e",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.9/BimMuhandisMCP-1.6.9.zip",
-  "zip_sha256": "ad611b9fb929e0728872253c9617305aeb4f430b9414b5ee87dd8a7c05280d82",
+  "version": "1.6.10",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.10/BimMuhandisMCP-Setup-1.6.10.exe",
+  "sha256": "5d7f97629530440b6c4a56b50bf442ae86c63ecddc655a26bab25431d31b40b5",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.10/BimMuhandisMCP-1.6.10.zip",
+  "zip_sha256": "da9d7950b9eb5f462cc427b62a4c851331e0af144d12605ab5173a0287b2720c",
   "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.9: MCP oynasi endi qaltiramaydi — «Holat» sahifasi faqat ma'lumot o'zgarganda yangilanadi, yangilanish ham chizish to'xtatilgan holda bir zarbada almashtiriladi\r\n1.6.8: o'rnatuvchi tuzatildi — MCP ishlab turganida (Claude Desktop, AutoCAD, Revit ushlab turgan fayllar) ham o'rnatiladi: band fayllar qayta nomlanib, yangisi yoziladi; «файл занят / доступ запрещён» xatosi chiqmaydi\r\n1.6.7: yangilanish har soatda tekshiriladi (avval 6 soatda) — yangi versiya tezroq yetib keladi · GitHub'da faqat oxirgi 5 ta MCP versiyasi saqlanadi, eskilari avtomatik o'chiriladi"
 }
