@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-1.6.11.zip"><img src="https://img.shields.io/badge/%E2%AC%87%20Yuklab%20olish-ZIP%201.6.11-2E7D32?style=for-the-badge" alt="ZIP yuklab olish"></a>
-  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-Setup-1.6.11.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20O'rnatuvchi-Setup.exe%201.6.11-1F3A5F?style=for-the-badge" alt="Setup yuklab olish"></a>
+  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-1.6.11.zip"><img src="https://img.shields.io/badge/Yuklab%20olish-ZIP%201.6.11-2E7D32?style=for-the-badge&logo=github" alt="ZIP yuklab olish"></a>
+  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-Setup-1.6.11.exe"><img src="https://img.shields.io/badge/O'rnatuvchi-Setup.exe%201.6.11-1F3A5F?style=for-the-badge&logo=windows" alt="Setup yuklab olish"></a>
 </p>
 
 <p align="center">
