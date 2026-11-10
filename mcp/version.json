@@ -1,8 +1,8 @@
 {
-  "version": "1.6.10",
-  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.10/BimMuhandisMCP-Setup-1.6.10.exe",
-  "sha256": "5d7f97629530440b6c4a56b50bf442ae86c63ecddc655a26bab25431d31b40b5",
-  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.10/BimMuhandisMCP-1.6.10.zip",
-  "zip_sha256": "da9d7950b9eb5f462cc427b62a4c851331e0af144d12605ab5173a0287b2720c",
-  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.9: MCP oynasi endi qaltiramaydi — «Holat» sahifasi faqat ma'lumot o'zgarganda yangilanadi, yangilanish ham chizish to'xtatilgan holda bir zarbada almashtiriladi\r\n1.6.8: o'rnatuvchi tuzatildi — MCP ishlab turganida (Claude Desktop, AutoCAD, Revit ushlab turgan fayllar) ham o'rnatiladi: band fayllar qayta nomlanib, yangisi yoziladi; «файл занят / доступ запрещён» xatosi chiqmaydi\r\n1.6.7: yangilanish har soatda tekshiriladi (avval 6 soatda) — yangi versiya tezroq yetib keladi · GitHub'da faqat oxirgi 5 ta MCP versiyasi saqlanadi, eskilari avtomatik o'chiriladi"
+  "version": "1.6.11",
+  "exe": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-Setup-1.6.11.exe",
+  "sha256": "b1d9041bf85216e5b9cc4993885179646797530059c47426cde1ad782adc0e64",
+  "zip": "https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-1.6.11.zip",
+  "zip_sha256": "1d5e1dbf5fc7f9d8b8eed3a824d9f477b4cebaf68bc6c5da715ebc2443354958",
+  "notes": "BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.\r\nO'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.\r\n1.6.11: «Biz haqimizda» bo'limida yuklab olishlar va ⭐ yulduzchalar soni hamda «GitHub'da yulduzcha bosish» tugmasi · bir martalik eslatma: MCP 3 kun ishlatilgach «Holat» sahifasida «⭐ foydali bo'lsa — yulduzcha bosing» (yopilgach qayta chiqmaydi) · GitHub sahifasida doim faqat oxirgi versiya: to'g'ridan-to'g'ri «ZIP» va «Setup» yuklash tugmalari, oldingi versiyalar yashirin saqlanadi · fonda ochilgan hujjat (uzel/shablon fayllari) MCP'ning faol hujjatiga aralashmaydi — noto'g'ri «TARGET_CHANGED» ogohlantirishi chiqmaydi"
 }
