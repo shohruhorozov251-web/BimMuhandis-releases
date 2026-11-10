@@ -10,14 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-1.6.11.zip"><img src="https://img.shields.io/badge/Yuklab%20olish-ZIP%201.6.11-2E7D32?style=for-the-badge&logo=github" alt="ZIP yuklab olish"></a>
-  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.6.11/BimMuhandisMCP-Setup-1.6.11.exe"><img src="https://img.shields.io/badge/O'rnatuvchi-Setup.exe%201.6.11-1F3A5F?style=for-the-badge&logo=windows" alt="Setup yuklab olish"></a>
+  <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/releases/download/mcp-v1.7.0/BIM_Muhandis_MCP_v1.7.0.zip"><img src="https://img.shields.io/badge/Yuklab%20olish-ZIP%201.7.0-2E7D32?style=for-the-badge&logo=github" alt="ZIP yuklab olish"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/shohruhorozov251-web/BimMuhandis-releases/stargazers"><img src="https://img.shields.io/github/stars/shohruhorozov251-web/BimMuhandis-releases?style=social" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fshohruhorozov251-web%2FBimMuhandis-releases%2Fmain%2Fmcp%2Fstats.json&query=%24.downloads&label=yuklab%20olingan&color=2E7D32" alt="yuklab olingan">
-  <img src="https://img.shields.io/badge/versiya-1.6.11-1F3A5F" alt="versiya">
+  <img src="https://img.shields.io/badge/versiya-1.7.0-1F3A5F" alt="versiya">
   <img src="https://img.shields.io/badge/tool'lar-460%2B-2E7D32" alt="tool'lar">
   <img src="https://img.shields.io/badge/2022–2027-0277BD" alt="2022–2027">
   <img src="https://img.shields.io/badge/Windows-x64-555" alt="Windows">
@@ -46,19 +45,32 @@
 | Claude Desktop, Claude Code, ChatGPT, Gemini, VS Code — bir vaqtda | ✅ |
 | Avtomatik yangilanish — hech qanday oynasiz | ✅ |
 | O'zbek · Русский · English | ✅ |
+| O'rnatgach AI ilovalarga **o'zi ulanadi** — JSON, PowerShell, Node kerak emas | ✅ |
+| Bir bosishda **to'liq o'chirish** (`O'chirish.exe`) | ✅ |
 
-**O'rnatish:** `BimMuhandisMCP-Setup-1.6.11.exe` ni oching → AI ilovalar o'zi ulanadi → Revit'ni qayta oching.  
-<sub>ZIP — o'rnatuvchisiz dastur fayllari (oflayn yoki qo'lda nusxalash uchun). Oddiy o'rnatish uchun Setup.exe tavsiya etiladi.</sub>
+## O'rnatish ketma-ketligi
 
-## Oxirgi versiya — 1.6.11 (10.11.2026)
+1. Yuqoridagi yashil **«Yuklab olish — ZIP»** tugmasini bosing.
+2. ZIP ustida o'ng tugma → **«Извлечь все» / «Extract All»**.
+3. Chiqarilgan papkada **`BIM Muhandis MCP - O'rnatish.exe`** ni ikki marta bosing → «O'rnatish» → «Tayyor».
+4. **Claude va Revit'ni qayta oching** — MCP o'zi ulangan (Claude Desktop, Claude Code, ChatGPT, Gemini, VS Code).
+5. Tekshirish: Revit → «Надстройки» → **MCP: ON**. Ulanmasa — MCP oynasi → «AI ilovalar» → **«Tuzatish»**.
+
+**O'chirish:** ZIP'dagi **`BIM Muhandis MCP - O'chirish.exe`** ni ikki marta bosing → «O'chirish». Hammasi o'chadi, BIM Muhandis plaginiga tegilmaydi.  
+<sub>Yangilanish avtomatik: MCP oynasida «Yangilash» → «Yuklanmoqda…» → Revit va Claude'ni qayta oching.</sub>
+
+## Oxirgi versiya — 1.7.0 (10.11.2026)
 
 BIM Muhandis MCP — AI ilovalar (Claude Desktop/Code, ChatGPT desktop, VS Code + Copilot, Gemini CLI, Antigravity, Cursor) uchun Revit, AutoCAD / Civil 3D, Navisworks, Tekla Structures va LIRA-SAPR 2022–2027 ulagichi.
 
-O'rnatgach Launcher ochiladi: «AI ilovalar» bo'limida kerakli ilovani «Ulash» bosing va uni qayta oching.
+O'rnatish: ZIP'ni chiqarib oling → «BIM Muhandis MCP - O'rnatish.exe» → Claude va Revit'ni qayta oching. AI ilovalar o'zi ulanadi. To'liq o'chirish: «BIM Muhandis MCP - O'chirish.exe».
 
-- «Biz haqimizda» bo'limida yuklab olishlar va ⭐ yulduzchalar soni hamda «GitHub'da yulduzcha bosish» tugmasi
-- bir martalik eslatma: MCP 3 kun ishlatilgach «Holat» sahifasida «⭐ foydali bo'lsa — yulduzcha bosing» (yopilgach qayta chiqmaydi)
-- GitHub sahifasida doim faqat oxirgi versiya: to'g'ridan-to'g'ri «ZIP» va «Setup» yuklash tugmalari, oldingi versiyalar yashirin saqlanadi
-- fonda ochilgan hujjat (uzel/shablon fayllari) MCP'ning faol hujjatiga aralashmaydi — noto'g'ri «TARGET_CHANGED» ogohlantirishi chiqmaydi
+- GitHub'da yagona fayl — ZIP (ichida o'rnatuvchi, o'chirgich, Claude kengaytmasi .mcpb va qisqa qo'llanma)
+- bir bosishda to'liq o'chirish: «BIM Muhandis MCP - O'chirish.exe» (ZIP'da, Pusk menyusida va «Программы и компоненты» da) — fayllar, ulagichlar, AI ilovalardagi yozuvlar, belgi qo'yilsa jurnal va sozlamalar ham; plaginga tegilmaydi
+- o'rnatgach Claude Desktop (oddiy va Store), Claude Code, ChatGPT, Gemini, VS Code o'zi ulanadi; o'rnatuvchi oxirida ochiq Claude qayta ishga tushadi — JSON, PowerShell, Node kerak emas
+- o'zini tuzatish: Revit yoki Windows ochilganda yo'qolgan AI ilova yozuvi va Revit ulagichi o'zi tiklanadi
+- «AI ilovalar» sahifasida haqiqiy holat: ✓ ishlayapti / qayta oching / ishlamayapti (Claude jurnalidagi sabab bilan) va «Tuzatish», «Claude'ni qayta ishga tushirish» tugmalari
+- MCP oynasi Pusk menyusi yoki Ish stolidan ochilganda ham Revit ichida, Revit oynasi o'rtasida chiqadi
+- yangilanishda «Yuklanmoqda…» sariq yozuvi, so'ng «Revit va Claude'ni qayta oching»
 
 <sub>© BIM Muhandis jamoasi — Keldiyor Shokir Toshtemirov, Shohruh O'tkir O'rozov</sub>
