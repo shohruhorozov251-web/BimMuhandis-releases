@@ -1,0 +1,95 @@
+# BIM Muhandis MCP — yig'ish va chiqarish (ochiq repoda: GitHub Actions bepul).
+# Manba kodi yopiq BimMuhandis reposidan SOURCE_TOKEN bilan olinadi; bu yerga faqat tayyor ZIP va version.json chiqadi.
+# Ishga tushirish: Actions → «mcp-build» → Run workflow (yoki API orqali workflow_dispatch).
+name: mcp-build
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Manba shoxi yoki commit (sukut main)"
+        default: main
+      channel:
+        description: "stable yoki beta"
+        default: stable
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mcp-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: bm
+    steps:
+      - name: Manba kodi (yopiq repo)
+        uses: actions/checkout@v4
+        with:
+          repository: shohruhorozov251-web/BimMuhandis
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.SOURCE_TOKEN }}
+          path: bm
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            8.0.x
+            10.0.x
+
+      - name: Versiya
+        id: v
+        run: |
+          [xml]$p = Get-Content src/BimMuhandis.Mcp/BimMuhandis.Mcp.csproj
+          $ver = ($p.Project.PropertyGroup | ForEach-Object { $_.Version } | Where-Object { $_ } | Select-Object -First 1)
+          "ver=$ver" >> $env:GITHUB_OUTPUT
+          "rel=${{ github.repository }}" >> $env:GITHUB_OUTPUT
+          gh release view "mcp-v$ver" --repo ${{ github.repository }} *> $null
+          if ($LASTEXITCODE -eq 0) { "exists=1" >> $env:GITHUB_OUTPUT } else { "exists=0" >> $env:GITHUB_OUTPUT }
+          exit 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Inno Setup
+        run: choco install innosetup -y --no-progress
+
+      - name: Yig'ish
+        run: ./build-mcp.ps1 -Ci -Installer
+
+      - name: Chiqarish (release + version.json)
+        if: steps.v.outputs.exists == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $ver = '${{ steps.v.outputs.ver }}'; $rel = '${{ steps.v.outputs.rel }}'
+          $beta = '${{ inputs.channel }}' -eq 'beta'
+          ./installer/mcp/latest-notes.ps1 | Set-Content dist-mcp/notes.md -Encoding UTF8
+          $a = @('release', 'create', "mcp-v$ver", "dist-mcp/BIM_Muhandis_MCP_v$ver.zip", '--repo', $rel, '--title', ("BIM Muhandis MCP $ver" + $(if ($beta) { ' (beta)' } else { '' })), '--latest=false', '--notes-file', 'dist-mcp/notes.md')
+          if ($beta) { $a += '--prerelease' }
+          gh @a
+          if ($LASTEXITCODE -ne 0) { throw "release yaratilmadi" }
+          $content = [Convert]::ToBase64String([IO.File]::ReadAllBytes('dist-mcp/version.json'))
+          $targets = if ($beta) { @('mcp/version-beta.json') } else { @('mcp/version.json', 'mcp/version-beta.json') }
+          foreach ($t in $targets) {
+            $sha = gh api "repos/$rel/contents/$t" --jq .sha 2>$null
+            $put = @('api', '-X', 'PUT', "repos/$rel/contents/$t", '-f', "message=BIM Muhandis MCP $ver", '-f', "content=$content")
+            if ($LASTEXITCODE -eq 0 -and $sha) { $put += @('-f', "sha=$sha") }
+            gh @put | Out-Null
+            if ($LASTEXITCODE -ne 0) { throw "$t yangilanmadi" }
+          }
+          Write-Host ("Chiqarildi: mcp-v$ver" + $(if ($beta) { ' (beta)' } else { '' }))
+          if (-not $beta) { ./installer/plugin-hidden.ps1 -Rel $rel }
+
+      - name: GitHub sahifasi va eski versiyalar
+        if: steps.v.outputs.exists == '0'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ('${{ inputs.channel }}' -eq 'beta') { ./installer/mcp/publish-page.ps1 -Rel '${{ steps.v.outputs.rel }}' -Ver '${{ steps.v.outputs.ver }}' -Beta }
+          else { ./installer/mcp/publish-page.ps1 -Rel '${{ steps.v.outputs.rel }}' -Ver '${{ steps.v.outputs.ver }}' }
